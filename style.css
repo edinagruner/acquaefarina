@@ -345,6 +345,7 @@ h4{
     background-color: #C78E38;
     color:white!important;
     padding:3px;
+    
     border-radius:10px;
     width:50%;
     margin:auto;
@@ -751,18 +752,21 @@ section#menu-section{
 /*Left-side*/
 #left-side{
 width:25%;
-border:2px solid #E6E8E7;
+border:2px solid #C78E38;
+background-color: #040D19;
 background-image: url("img/basilica-bg.png");
-padding: 30px;
+padding:0 30px 30px 30px;
 height:100vh;
 float:left;
 left:0;
 position: fixed;
 top:0;
+color:#C78E38;
+text-align: center;
 
 }
 #logo-head{
-    width:25%;
+    width:40%;
     margin:20px auto;
 }
 #logo-head>img{
@@ -773,6 +777,8 @@ ul#menu-left-side{
     display: block;
     text-align: center;
     position:absolute;
+    margin:auto;
+    width:80%;
 
 }
 .spot{
@@ -789,7 +795,7 @@ ul#menu-left-side{
  
 }
 #menu-left-side>li>a{
-    color:#0E2230;
+   
     font-size:1rem;
    
 }
@@ -798,6 +804,7 @@ ul#menu-left-side{
 }
 /*Right-side*/
 #right-side{
+    background-color: #040D19;
 width:75%;
 float:right;
 right:0;
