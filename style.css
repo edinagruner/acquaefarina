@@ -1066,5 +1066,27 @@ nav{
            .opening{
                right:40px;
            }
+       
+       #insta{
+       
+        margin-right:30%;
+       
        }
+  
+    #fb{
+     
+      margin-left:30%;
+      
+    }
+
+    ul#footer-nav{
+        padding:8px;
+
+    }
+    ul#footer-nav>li{
+        margin:5px;
+    }
+
 }
+
+
