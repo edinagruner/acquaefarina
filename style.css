@@ -29,7 +29,7 @@ body{
 
 
 .bg-red{
-    background-color:#81261F;
+    background-color:#AB462B;
 }
 
 .bg-yellow{
@@ -192,7 +192,7 @@ li>a:hover{
     width: 20px;
   }
   a.sticky.place{
-    background-color: #81261F;
+    background-color: #AB462B;
     padding: 5px;
     top:100px;
     margin: 30px 0;
@@ -527,7 +527,7 @@ ul.book-a-table-opening.opening{
     grid-row-end:2;
      grid-column-start: 1;
      grid-column-end: 2;
-     background-color: #81261F;
+     background-color: #AB462B;
      padding:90px;
 }
 .here-we-are-text-box>h2{
@@ -598,7 +598,7 @@ input[type=submit] {
 
 input[type=reset]{
 
-  background-color:#81261F;
+  background-color:#AB462B;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -611,7 +611,7 @@ input[type=reset]:hover{
 }
 
 input[type=submit]:hover {
-  background-color: #81261F;
+  background-color: #AB462B;
 }
 
 .container {
@@ -730,7 +730,7 @@ ul.footer{
     border:none;
 }
 .acceptcookies:hover{
-    background:#81261F;
+    background:#AB462B;
 }
 .cookiealert>a{
     text-decoration: none !important;
