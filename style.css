@@ -22,32 +22,6 @@ body{
     font-size: 2.5rem;
 }
 
-/*Colors*/
-.bg-blue{
-    background-color:#0E2230;
-}
-
-
-.bg-red{
-    background-color:#AB462B;
-}
-
-.bg-yellow{
-    background-color:#C78E38
-    ;
-}
-.bg-grey{
-    background-color: #E6E8E7;
-}
-
-.white{
-    color:white;
-}
-
-
-.blue{
-    color:#040D19;
-}
 
 
 /*Header Section*/
@@ -255,11 +229,11 @@ li>a:hover{
 }
  
  /*Let's eat section*/
- #lets-eat{
+ #our-menu{
     background-color: #040D19; 
     padding:90px 0 0 0;
     width:100%;
-    margin:auto;
+    margin:auto 0;
     text-align: center;
     color:#C78E38;
 
@@ -278,7 +252,7 @@ li>a:hover{
     width:50%;
 
 }
- #lets-eat-box{
+ #our-menu-box{
     background-image: url("img/basilica-bg.png");
     
     background-size: cover;
@@ -308,7 +282,7 @@ h4{
     color:#C78E38;
  
 }
-.lets-eat-grid{
+.our-menu-grid{
     display: grid;
     grid-template-columns:25% 25% 25% 25%;
     text-align: center;
@@ -341,14 +315,14 @@ h4{
     color:white;
     font-family: 'Montserrat', sans-serif;
 }
-.yellow{
+.price-box{
     background-color: #C78E38;
     color:white!important;
     padding:3px;
     
     border-radius:10px;
-    -webkit-box-shadow: -1px 3px 7px 3px rgba(0,0,0,0.85); 
-    box-shadow: -1px 3px 7px 3px rgba(0,0,0,0.85); ;
+    -webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.6); 
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.6); ;
     width:50%;
     margin:auto;
     font-family: 'Montserrat', sans-serif;
@@ -821,13 +795,19 @@ h4.our-menu{
     clear: both;
     z-index:20;
 }
-
-@media only screen and (max-width: 1190px){
-    #border-main-container, #about-grid-box , #book-a-table, #lets-eat, #here-we-are, .contact-box{
+@media only screen and (max-width: 1440px){
+  #about-grid-box , #book-a-table, #here-we-are, .contact-box{
         width:90%;
   
     }
-   
+}
+@media only screen and (max-width: 1190px){
+    #about-grid-box , #book-a-table, #our-menu, #here-we-are, .contact-box{
+        width:100%;
+}
+   .about-text, .here-we-are-address {
+       padding:30px;
+   }
     .our-menu{
  left:90px;
     }
@@ -836,9 +816,7 @@ h4.our-menu{
     }
 }
 @media only screen and (max-width: 1024px){
-    #border-main-container, #about-grid-box , #book-a-table, #lets-eat, #here-we-are, .contact-box{
-        width:100%;
-}
+ 
 .footer-grid-box{
     padding:0;
 }
@@ -851,7 +829,7 @@ h4.our-menu{
 
 
     .here-we-are-text-box, .book-a-table-textbox {
-padding:30px;
+padding:20px;
     } 
     .book-a-table-phonenumber{
         float:none;
@@ -883,7 +861,7 @@ padding:30px;
     .about-img.first{
         grid-row-start:4;
     }
-    .lets-eat-grid{
+    .our-menu-grid{
         grid-template-columns: 50% 50%;
     }
     #border-main-container{
@@ -1006,7 +984,7 @@ nav{
      .pizza-draw>img{
          width:60%;
      }
-    .lets-eat-grid {
+    .our-menu-grid {
         grid-template-columns: 100%;
     }
         .farina{
